@@ -1,0 +1,25 @@
+.header {
+	font-size: 50px;
+	margin: 25px auto 50px;
+	text-align: center;
+}
+
+#dice {
+	background: url(resources/d20bluewhite.png);
+	background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+	position: relative;
+    width: 500px;
+    height: 500px;
+	cursor: pointer;
+	margin: 25px auto;
+}
+
+#result {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 110px;
+}
